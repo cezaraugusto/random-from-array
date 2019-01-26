@@ -18,7 +18,7 @@ $ npm i random-from-array
 
 ## Usage
 
-[Try it on CodeSandbox](https://codesandbox.io/s/20pp8xjlor)
+[Try it on CodeSandbox](https://codesandbox.io/s/5234j3wn6p)
 
 ```js
 import randomFromArray from 'random-from-array'
