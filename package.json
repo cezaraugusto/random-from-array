@@ -1,0 +1,52 @@
+{
+  "name": "random-from-array",
+  "version": "1.0.0",
+  "description": "Given an array, return a random value from it",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "standard --verbose | snazzy",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm audit",
+    "test": "jest --config=jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cezaraugusto/random-from-array.git"
+  },
+  "keywords": [
+    "random",
+    "array",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/cezaraugusto/random-from-array.git/issues"
+  },
+  "homepage": "https://github.com/cezaraugusto/random-from-array.git#readme",
+  "author": "Cezar Augusto <boss@cezaraugusto.net>",
+  "license": "MIT",
+  "standard": {
+    "parser": "typescript-eslint-parser",
+    "plugins": [
+      "typescript",
+      "markdown"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.11",
+    "@types/node": "^10.12.18",
+    "eslint-plugin-markdown": "^1.0.0-rc.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "jest": "^23.6.0",
+    "snazzy": "^8.0.0",
+    "standard": "^12.0.1",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2",
+    "typescript-eslint-parser": "^21.0.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5.11.1"
+  }
+}

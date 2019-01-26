@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "sourceMap": true,
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "rootDir": "./lib",
+    "outDir": "./dist",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "noUnusedParameters": true,
+    "noErrorTruncation": true,
+    "esModuleInterop": true,
+		"types": ["node", "jest"]
+	},
+  "exclude": [
+    "./tests",
+    "dist"
+  ]
+}

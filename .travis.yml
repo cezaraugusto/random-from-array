@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "node"
+branches:
+  only:
+    - master
+env:
+  - TEST_SUITE=lint
+  - TEST_SUITE=test
+  - TEST_SUITE=build
+script:
+  - npm run $TEST_SUITE
